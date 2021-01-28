@@ -184,6 +184,9 @@ type EventDetails struct {
 	// Placeholder for description of property container_cloud_sevice of obj type EventDetails field type str  type object
 	ContainerCloudSevice *ContainerCloudService `json:"container_cloud_sevice,omitempty"`
 
+	//  Field introduced in 20.1.4.
+	ControllerDiscontinuousTimeChangeEventDetails *ControllerDiscontinuousTimeChangeEventDetails `json:"controller_discontinuous_time_change_event_details,omitempty"`
+
 	// Placeholder for description of property controller_license_reconcile_details of obj type EventDetails field type str  type object
 	ControllerLicenseReconcileDetails *ControllerLicenseReconcileDetails `json:"controller_license_reconcile_details,omitempty"`
 
@@ -372,6 +375,9 @@ type EventDetails struct {
 
 	// Placeholder for description of property se_details of obj type EventDetails field type str  type object
 	SeDetails *SeMgrEventDetails `json:"se_details,omitempty"`
+
+	//  Field introduced in 20.1.4.
+	SeDiscontinuousTimeChangeEventDetails *SeDiscontinuousTimeChangeEventDetails `json:"se_discontinuous_time_change_event_details,omitempty"`
 
 	// Placeholder for description of property se_dupip_event_details of obj type EventDetails field type str  type object
 	SeDupipEventDetails *SeDupipEventDetails `json:"se_dupip_event_details,omitempty"`
